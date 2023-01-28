@@ -1,3 +1,1 @@
 # go-basic
-
-LEARN BASIC GO LANGUAGE
