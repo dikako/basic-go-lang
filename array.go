@@ -37,4 +37,16 @@ func main() {
 
 	fmt.Println(len(country))
 	fmt.Println(len(countryCode))
+
+	//Test
+	var A [3][5]string
+	var B [5]string
+
+	//for i := 1; i < 5; i++ {
+	//	sum += i
+	//}
+
+	for i := 0; i <= 5; i++ {
+		A = A[i]
+	}
 }

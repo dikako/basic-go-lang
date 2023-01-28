@@ -3,17 +3,17 @@ package main
 import "fmt"
 
 func main() {
-	name := "andika"
-	if name == "andika" {
-		fmt.Println("Halo Fransiskus Andika Setiawan")
-	} else if name == "fransiskus" {
-		fmt.Println("Halo Fransiskus Andika Setiawan")
+	name := "Fransiskus"
+	if name == "Andika" {
+		fmt.Println("Halo Andika")
+	} else if name == "Fransiskus" {
+		fmt.Println("Halo Fransiskus")
 	} else {
 		fmt.Println("Check nama anda")
 	}
 
 	//If using sort statement
-	if length := len(name); length > 8 {
+	if length := len(name); length > 30 {
 		fmt.Println("Nama terlalu panjang")
 	} else {
 		fmt.Println("Nama benar")
