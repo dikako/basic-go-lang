@@ -2,7 +2,8 @@ package main
 
 import "fmt"
 
-/**
+/*
+*
 Pointer di Function
 - Saat kita membuat parameter di function, secara default adalah pass by value, artinya data akan di copy lalu dikirim ke function tersebut
 - Oleh karena itu, jika mengubah data didalam function, data yang aslinya tidak akan pernah berubah

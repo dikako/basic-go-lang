@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-//Solusi 1: Menggunakan looping
+// Solusi 1: Menggunakan looping
 func factorialLoop(value int) int {
 	result := 1
 	for i := value; i > 0; i-- {
@@ -11,7 +11,7 @@ func factorialLoop(value int) int {
 	return result
 }
 
-//Solusi 2: Menggunakan recursive function
+// Solusi 2: Menggunakan recursive function
 func factorialRecursive(value int) int {
 	if value == 1 {
 		return 1

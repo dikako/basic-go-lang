@@ -8,7 +8,7 @@ Pointer di method
 - Sangat direkomendasikan menggunakan pointer di method, sehingga tidak boros memory karena harus selalu diduplikasi ketika memanggil method
 */
 
-//ini contoh penggunaan yang buka pointer
+// ini contoh penggunaan yang buka pointer
 type Man struct {
 	Name string
 }
